@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { contactStore } from './stores/CountStore';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-mobx';
+  store = contactStore;
+  constructor(){
+  }
 }

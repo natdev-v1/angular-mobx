@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-mobx"
+    }
+  },
+  "defaultProject": "angular-mobx",
+  "cli": {
+    "analytics": "628ae47e-ca24-421f-8490-d47ac2553099"
+  }
 }
